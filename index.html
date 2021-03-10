@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="webagency_images/images/favicon.png" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="author" content="Vincent VIDOT" />
+    <meta name="Description" content="Vous avez comme projet de créer un site web ou d'une application ? La WebAgency vous aide à le réaliser !" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="WebAgency - L'agence de tous vos projets !" />
+    <meta name="twitter:url" content="http://webagency.vincentvdt.fr/" />
+    <meta name="twitter:description" content="Vous avez comme projet de créer un site web ou d'une application ? La WebAgency vous aide à le réaliser !" />
+    <meta name="twitter:image" content="" />
+
+    <!-- Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="WebAgency - L'agence de tous vos projets !" />
+    <meta property="og:url" content="http://webagency.vincentvdt.fr/" />
+    <meta property="og:description" content="Vous avez comme projet de créer un site web ou d'une application ? La WebAgency vous aide à le réaliser !" />
+    <meta property="og:image" content="" />
+
+    <title>WebAgency - L'agence de tous vos projets !</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="menu">
+        <img id="logo" src="webagency_images/images/logo.png" alt="WebAgency Logo" />
+        <nav>
+            <ul>
+                <li><a href="#top">Accueil</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section 1 Banner -->
+
+    <section id="banner">
+
+        <img src="webagency_images/images/slider/bg1.jpg" alt="Bannière WebAgency">
+        <div class="loading_bar_black"></div>
+        <div class="loading_bar_blue"></div>
+        <div id="titre_principale">
+            <h1><strong class="blue">WebAgency</strong> : L'agence de tous<br />vos projets !</h1>
+            <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+            <a href="" class="bouton_banner">Plus d'infos</a>
+        </div>
+        <div id="bouton_slider_left"><i class="fas fa-chevron-left"></i></div>
+        <div id="bouton_slider_right"><i class="fas fa-chevron-right"></i></div>
+
+    </section>
+
+
+    <!-- Section 2  Service -->
+
+    <section id="service">
+        <div class="row">
+            <header class="headers_section_title">
+                <h2>Nos services</h2>
+                <div class="header_section_sign">
+                    <hr />
+                    <i class="fas fa-circle fa-sm"></i>
+                </div>
+                <p>
+                    Vous souhaitez créer un site web ou une application ? WebAgency met à votre disposition <br />son expertise en la matière pour répondre à vos attentes et vous accompagner tout au long du processus de création !
+                </p>
+            </header>
+
+            <div class="elements_section">
+                <div id="main_feature">
+                    <img src="webagency_images/images/main-feature.png" alt="Exemple de nos services">
+                </div>
+                <article id="liste_service">
+                    <ul>
+                        <li>
+                            <div class="icone">
+                                <i class="fas fa-chart-line fa-2x"></i>
+                                <i class="fas fa-circle fa-xs"></i>
+                            </div>
+                            <div class="text_liste_service">
+                                <h3>UX design</h3>
+                                <p>L'ergonomie d'un site Internet doit le rendre intuitif à comprendre et à utiliser.<br />L'UX Design couvre à la fois l'ergonomie, l'étude du comportement, l'ethonologie, le contenu et la navigation.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icone">
+                                <i class="fas fa-cubes fa-2x"></i>
+                                <i class="fas fa-circle fa-xs"></i>
+                            </div>
+                            <div class="text_liste_service">
+                                <h3>UI design</h3>
+                                <p>La fonction première du design est d'améliorer l'expérience que l'on a d'un produit ou service.<br />Les Webdesigner de notre agence web vous accompagnent pour répondre aux dernières tendances, et faire que votre design
+                                    dure quelques années.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icone">
+                                <i class="fas fa-chart-pie fa-2x"></i>
+                                <i class="fas fa-circle fa-xs"></i>
+                            </div>
+                            <div class="text_liste_service">
+                                <h3>SEO</h3>
+                                <p>Le référencement a pour objectif d'intégrer, de positionner et de maintenir votre site internet en tête des moteurs de recherche.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3 Portfolio -->
+
+    <section id="portfolio">
+        <div class="row">
+            <header class="headers_section_title">
+                <h2>Nos projets</h2>
+                <div class="header_section_sign">
+                    <hr />
+                    <i class="fas fa-circle fa-sm"></i>
+                </div>
+                <p>Afin de mieux vous prouvez notre savoir faire. Vous retrouvez à votre dispotion différentes réferences conçus par notre agence</p>
+            </header>
+            <div id="projet_portfolio">
+                <input type="radio" name="portfolio_button" id="all_works" checked />
+                <input type="radio" name="portfolio_button" id="all_creative" />
+                <input type="radio" name="portfolio_button" id="all_corporate" />
+                <input type="radio" name="portfolio_button" id="all_portfolio" />
+                <div class="portfolio_button_bar">
+                    <label for="all_works">All Works
+					<span class="arrow-down"></span>
+				</label>
+
+                    <label for="all_creative">Creative
+					<span class="arrow-down"></span>
+				</label>
+
+                    <label for="all_corporate">Corporate
+					<span class="arrow-down"></span>
+				</label>
+
+                    <label for="all_portfolio">Portfolio
+					<span class="arrow-down"></span>
+				</label>
+                </div>
+
+                <div id="portfolio_galerie">
+                    <figure class="creative">
+                        <img src="webagency_images/images/portfolio/01.jpg" alt="Portfolio - Lunettes et moustace" />
+                        <figcaption>
+                            <a href="">
+                                <div class="eyes"><i class="fa fa-eye eye"></i></div>
+                            </a>
+                            <h2>Glass'Art Modern</h2>
+                            <span>Tout tourne autour des lunettes</span>
+                        </figcaption>
+                    </figure>
+                    <figure class="corporate">
+                        <img src="webagency_images/images/portfolio/02.jpg" alt="Portfolio - Un Lapin rose qui tient un paquet cadeau" />
+                        <figcaption>
+                            <a href="">
+                                <div class="eyes"><i class="fa fa-eye eye"></i></div>
+                            </a>
+                            <h2>Choco Farm</h2>
+                            <span>Ne plus attendre Pâque pour se faire plaisir </span>
+                        </figcaption>
+                    </figure>
+                    <figure class="portfolio_selec">
+                        <img src="webagency_images/images/portfolio/03.jpg" alt="Portfolio - Infographie Original Pompadour" />
+                        <figcaption>
+                            <a href="">
+                                <div class="eyes"><i class="fa fa-eye eye"></i></div>
+                            </a>
+                            <h2>Pompadour</h2>
+                            <span>ORIGINAL - Pompadour </span>
+                        </figcaption>
+                    </figure>
+                    <figure class="portfolio_selec">
+                        <img src="webagency_images/images/portfolio/04.jpg" alt="Dossier artchitecture" />
+                        <figcaption>
+                            <a href="">
+                                <div class="eyes"><i class="fa fa-eye eye"></i></div>
+                            </a>
+                            <h2>Bench MockUp</h2>
+                            <span>Utilitaire de création de plan</span>
+                        </figcaption>
+                    </figure>
+                    <figure class="corporate">
+                        <img src="webagency_images/images/portfolio/05.jpg" alt="Portfolio - Deux Shopping Bag" />
+                        <figcaption>
+                            <a href="">
+                                <div class="eyes"><i class="fa fa-eye eye"></i></div>
+                            </a>
+                            <h2>MockUp</h2>
+                            <span>NewGround - MockUp</span>
+                        </figcaption>
+                    </figure>
+                    <figure class="creative">
+                        <img src="webagency_images/images/portfolio/06.jpg" alt="Portfolio - Architecture neo futuriste" />
+                        <figcaption>
+                            <a href="">
+                                <div class="eyes"><i class="fa fa-eye eye"></i></div>
+                            </a>
+                            <h2>CityTown Galery</h2>
+                            <span>Galerie Retro Futuriste</span>
+                        </figcaption>
+                    </figure>
+                    <figure class="portfolio_selec">
+                        <img src="webagency_images/images/portfolio/07.jpg" alt="Portfolio - Fusée qui décole" />
+                        <figcaption>
+                            <a href="">
+                                <div class="eyes"><i class="fa fa-eye eye"></i></div>
+                            </a>
+                            <h2>Road To Space </h2>
+                            <span>A la conquête des étoiles !</span>
+                        </figcaption>
+                    </figure>
+                    <figure class="corporate">
+                        <img src="webagency_images/images/portfolio/08.jpg" alt="Portfolio - Be Theme Bureau" />
+                        <figcaption>
+                            <a href="">
+                                <div class="eyes"><i class="fa fa-eye eye"></i></div>
+                            </a>
+                            <h2>Be Theme</h2>
+                            <span>Rien de plus que ce dont à besoin</span>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <!-- Portofolio -->
+        </div>
+    </section>
+
+    <!-- SECTION 4 - CONTACT -->
+
+    <section id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.0656215803806!2d0.686555739416253!3d47.391152498416204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fcd5b68de92c03%3A0x2ae9baed40322d20!2s3+Rue+des+Minimes!5e0!3m2!1sfr!2sfr!4v1540498008211">			
+		</iframe>
+
+        <article id="formulaire">
+            <div id="contact_info">
+                <h2>Contact Info</h2>
+                <p><span class="bold">WebAgency SAS</span> <br /> 3 Rue des Minimes, 37000 Tours<br /> Tel : 01 02 03 04 05</p>
+            </div>
+            <form method="post" action="contact_msg.php">
+                <input id="contactName" type="text" name="name" placeholder="Nom" required />
+                <input id="contactEmail" type="email" name="email" placeholder="Email" required />
+                <input id="contactSubject" type="text" name="subject" placeholder="Sujet" required />
+                <textarea id="contactMessage" name="message" placeholder="Message" required rows="10" cols="30"></textarea>
+                <input type="submit" value="Envoyer">
+            </form>
+        </article>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Réalisé par Vincent VIDOT | 2018 © </p>
+    </footer>
+</body>
+
+</html>
