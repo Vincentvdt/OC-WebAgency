@@ -32,3 +32,6 @@ N’oubliez toutefois pas d’adapter le rendu pour vos visiteurs utilisant des 
     - Présenter une réalisation de manière professionnelle
     - Définir le contenu d’une page web à partir d’une maquette
     - Coder la structure d’une page web en HTML
+
+
+2018
